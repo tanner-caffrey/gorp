@@ -1,0 +1,35 @@
+{
+  "name": "gorp-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot named gorp with Letta integration",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {
+    "@letta-ai/letta-client": "^0.1.210",
+    "@modelcontextprotocol/sdk": "^1.17.5",
+    "cors": "^2.8.5",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^20.10.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "letta",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT"
+}
